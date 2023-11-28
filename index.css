@@ -1,0 +1,133 @@
+@import url('https://fonts.cdnfonts.com/css/first-reign-personal-use-only');
+
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(Fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;  
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    color: white;
+}
+
+header hr {
+    border: none; 
+    background-color: rgb(176, 2, 2); 
+    height: 1px;
+    width: 90%;
+    margin: 20px 5% 0 5%;
+}
+
+#navbar {
+    display: flex;
+    margin-top: 1%;
+}
+
+#navbar ul {
+    /* border: 1px solid white; */
+    margin-right: 150px;
+    text-align: end;
+}
+
+#navbar ul li{
+    /* border: 1px solid white; */
+    display: inline;
+    margin: 0 30px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+    
+}
+
+#navbar ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+
+#navbar #logo {
+    width: 15%;
+    /* border: 1px solid; */
+}
+
+#navbar #logo img {
+    width: 20%;
+    margin-left: 80%;
+    opacity: 0.8;
+}
+
+#name_of_site {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50% 50%;
+    /* justify-content: space-around; */
+}
+
+#name_of_site h1{
+    width: 200%;
+    font-weight: 300;
+    margin: 40% 0 0 30%;
+    text-align: center;
+    font-size: 95px;
+    /* margin-top: 40%; */
+    font-family: 'First Reign PERSONAL USE ONLY', sans-serif;
+
+
+
+
+
+
+
+
+    line-height: 80px;
+
+}
+
+#name_of_site h1 span{
+    font-size: 48px;
+    margin-left: -220px;
+}
+
+
+#name_of_site > * {
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+
+#name_of_site img{
+    width: 100%;
+    opacity: 0.3;
+    margin: 25% 50%;
+    border-radius: 25%;
+}
+
+#name_of_site #button_more {
+    margin: 9% 0 0 55%;
+
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    width: 320px;
+    height: 60px;
+    background-color: #B00202;
+    background-image: url("../images/стрелка1.png");
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato';
+    border-radius: 35px;
+
+    box-shadow: 0px 0px 100px 0px #B00202;
+}
