@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/first-reign-personal-use-only');
+
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(Fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: LatoLight; /* Имя шрифта */
+    src: url(Fonts/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: LatoBold; /* Имя шрифта */
+    src: url(Fonts/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;  
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+header hr {
+    border: none; 
+    background-color: red; 
+    height: 1px;
+    width: 90%;
+    margin: 20px 5% 0 5%;
+}
+
+#navbar {
+    display: flex;
+    margin-top: 1%;
+}
+
+
+#navbar #logo {
+    width: 15%;
+    /* border: 1px solid; */
+}
+
+#navbar #logo img {
+    width: 20%;
+    margin-left: 80%;
+    opacity: 0.8;
+}
+
+#navbar ul {
+    margin-right: 150px;
+    text-align: end;
+}
+ 
+#navbar ul li{
+    display: inline;
+    
+    margin-left: 60px;
+}
+ 
+#navbar  ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+     
+}
+ 
+#navbar ul li a:hover{
+    text-decoration: underline;
+     
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'First Reign PERSONAL USE ONLY', sans-serif;
+}
+
+.list_of_films {
+    display: flex;
+}
+
+.list_of_films .for_img {
+    width: 40%;
+}
+
+.list_of_films .description {
+    width: 45%;
+}
+
+.list_of_films img {
+    width: 60%;
+    margin-left: 35%;
+}
+
+.list_of_films .description p {
+    font-family: 'Lato';
+    /* Light */
+}
+
+.list_of_films .description h2 {
+    color: red;
+    font-family: 'Lato'; 
+    /* bold */
+}
+
+main hr {
+    border: none; 
+    background-color: white; 
+    height: 1px;
+    width: 90%;
+    margin:  5%;
+    opacity: 0.5;
+}

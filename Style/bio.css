@@ -1,0 +1,147 @@
+@import url('https://fonts.cdnfonts.com/css/first-reign-personal-use-only');
+
+
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(Fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;  
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+
+header hr {
+    border: none; 
+    background-color: rgb(176, 2, 2); 
+    height: 1px;
+    width: 90%;
+    margin: 20px 5% 0 5%;
+}
+
+#navbar {
+    display: flex;
+    margin-top: 1%;
+}
+
+
+#navbar #logo {
+    width: 15%;
+    /* border: 1px solid; */
+}
+
+#navbar #logo img {
+    width: 20%;
+    margin-left: 80%;
+    opacity: 0.8;
+}
+
+#navbar ul {
+    margin-right: 150px;
+    text-align: end;
+}
+
+#navbar ul li{
+    display: inline;
+    margin-left: 60px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+    
+}
+
+#navbar ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'First Reign PERSONAL USE ONLY', sans-serif;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+
+#content div{
+    width: 50%;
+}
+#content #text_content  {   
+    width: 30%;
+    margin-left: 10%;
+    border-top: 1px solid;
+    border-left: 0.5px solid;
+}
+
+#content #text_content p  {
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-left: 10%;
+    /* margin-left: 10%; */
+    /* margin-left: 80%; */
+}
+
+#content #text_content h3  {
+    font-family: 'Lato';
+    font-size: 20px;
+    color: red;
+    margin: 8% 0 0 10%;
+
+    /* margin-left: 80%; */
+}
+
+#content div img {
+    width: 80%;
+}
+
+main #main_inf {
+    width: 50%;
+    margin: 0 25%;
+    font-family: 'Lato';
+}
+
+#main_inf p {
+    /* font-family: 'Lato'; */
+    font-size: 16px;
+}
+
+#main_inf h2 {
+    margin-top: 7%;
+    /* font-family: 'Lato'; */
+    font-weight: bold;
+}
+
+.lato_bold {
+    font-weight: bold;
+}
+
+
+.lato_light {
+    font-weight: lighter;
+}
+
+#date {
+    padding:0 0 3% 3%;
+    width: 30%;
+    white-space: nowrap;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
